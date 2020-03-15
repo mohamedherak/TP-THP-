@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.col {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+	background-color: #11a89e;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.options {
+    width: 200px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 0 15px;
+}
+
+#board {
+    flex: 1;
+}
+
+.in3 {
+    width: 30px;
+}
+
+#instructions {
+    padding: 20px;
+    position: relative;
+    top: -221px;
+    height: 180px;
+    border-top: 1px #000000 dashed;
+    background-color: whitesmoke;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nbtn {
+	background-color:#8cede7;
+    width: 100px;
+    height: 50px;
+}
